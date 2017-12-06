@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Siri</title>
+</head>
+<body>
+<script>
+    console.log("Siri is sleeping")
+    setTimeout(askForName, 500)
+
+    function askForName() {
+        console.log ("Siri waked up")
+        let name = prompt("Who are you?")
+        console.log("got name: " + name)
+
+        let age = prompt("Hello " + name + ", How old are you?")
+        console.log ("got age: " + age)
+        alert("Holy! It\'means you are " + age >30? "Good" : "Better" )
+
+
+
+    }
+</script>
+</body>
+</html>
